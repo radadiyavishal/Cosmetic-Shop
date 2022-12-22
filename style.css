@@ -1,29 +1,37 @@
+nav ul li a {
+  color:white;
+  text-decoration: none;
+}
+
 nav ul li {
   list-style: none;
   margin: 20px;
+
 }
+
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: black;
+  background-color: rgb(33, 2, 2);
   color: white;
+
+
 }
+
 nav ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-a {
-  color: white;
-  text-decoration: none;
+
+
 }
 
 /* hero */
 .hero {
   background-image: url("./image/shop.webp");
   background-color: #cccccc;
-  height: 1350px;
+  height: 1400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,3 +57,22 @@ a {
   border: 1px solid rgb(5, 2, 22);
   color: rgb(5, 2, 22);
 }
+
+footer div ul li {
+  list-style: none;
+
+}
+
+  footer {
+    background-color: rgb(40 80 80);
+    color: white;
+    padding: 40px 0px;
+    justify-self: space-between;
+    align-items: center;
+
+  }
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
