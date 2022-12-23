@@ -5,12 +5,13 @@ nav ul li a {
 
 nav ul li {
   list-style: none;
-  margin: 20px;
+  margin: 5px 25px;
 
 }
 
 nav {
   display: flex;
+  border-radius: 60px;
   align-items: center;
   justify-content: space-between;
   background-color: rgb(33, 2, 2);
@@ -31,7 +32,8 @@ nav ul {
 .hero {
   background-image: url("./image/shop.webp");
   background-color: #cccccc;
-  height: 1400px;
+  height: 1272px;
+  margin: 2px 113px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,12 +50,12 @@ nav ul {
 .hero-text h1 {
   font-size: 50px;
   font-weight: 600;
-  letter-spacing: 5px;
+  letter-spacing: -1px;
 }
 
 .hero-text button {
   background-color: rgb(210, 17, 17);
-  padding: 11px 43px;
+  padding: 5px 18px;
   border: 1px solid rgb(5, 2, 22);
   color: rgb(5, 2, 22);
 }
